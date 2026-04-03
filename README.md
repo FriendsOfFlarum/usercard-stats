@@ -4,6 +4,8 @@
 
 A [Flarum](http://flarum.org) extension. Add stats to the usercard for your forum users.
 
+> **Note:** This extension is the continuation of the now-abandoned [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats). If you are migrating, replace `blomstra/usercard-stats` with `fof/usercard-stats` in your composer dependencies.
+
 User profile example:
 ![User profile](https://user-images.githubusercontent.com/16573496/169901402-e9b5bf80-2f90-400a-b6a3-bc3f955e1d60.png)
 

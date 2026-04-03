@@ -18,6 +18,9 @@
             "url": "https://opencollective.com/fof/donate"
         }
     ],
+    "replace": {
+        "blomstra/usercard-stats": "*"
+    },
     "require": {
         "flarum/core": "^1.8.3"
     },
