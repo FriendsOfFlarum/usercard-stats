@@ -4,7 +4,7 @@
   "private": true,
   "prettier": "@flarum/prettier-config",
   "devDependencies": {
-        "flarum-webpack-config": "^2.0.0",
+        "flarum-webpack-config": "^3.0.0",
         "webpack": "^5.88.2",
         "webpack-cli": "^5.1.4",
         "prettier": "^3.0.3",
