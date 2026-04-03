@@ -1,7 +1,7 @@
 import type Mithril from 'mithril';
 import Component, { ComponentAttrs } from 'flarum/common/Component';
 import extract from 'flarum/common/utils/extract';
-import icon from 'flarum/common/helpers/icon';
+import Icon from 'flarum/common/components/Icon';
 
 export interface UsercardStatAttrs extends ComponentAttrs {
   icon: string;
@@ -17,7 +17,7 @@ export default class UsercardStat<T extends UsercardStatAttrs = UsercardStatAttr
 
     return (
       <div className="userStat">
-        {icon(iconClass)}
+        <Icon className={iconClass} />
         {displayText}
       </div>
     );
