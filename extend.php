@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of blomstra/usercard-stats.
+ * This file is part of fof/usercard-stats.
  *
- * Copyright (c) 2022 Team Blomstra.
+ * Copyright (c) FriendsOfFlarum.
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace Blomstra\UsercardStats;
+namespace FoF\UsercardStats;
 
 use Flarum\Extend;
 
