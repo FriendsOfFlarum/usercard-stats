@@ -17,7 +17,7 @@ export default class UsercardStat<T extends UsercardStatAttrs = UsercardStatAttr
 
     return (
       <div className="userStat">
-        <Icon className={iconClass} />
+        <Icon name={iconClass} />
         {displayText}
       </div>
     );
