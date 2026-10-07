@@ -13,7 +13,7 @@ export default function extendUserCard() {
     items.add(
       'discussion-count',
       <UsercardStat
-        icon="fa-solid fa-comment"
+        icon="fa-solid fa-comments"
         displayText={app.translator.trans('fof-usercard-stats.forum.user.discussion-count', { count: user.discussionCount() })}
       />,
       70
@@ -22,7 +22,7 @@ export default function extendUserCard() {
     items.add(
       'comment-count',
       <UsercardStat
-        icon="fa-solid fa-comments"
+        icon="fa-solid fa-comment"
         displayText={app.translator.trans('fof-usercard-stats.forum.user.post-count', { count: user.commentCount() })}
       />,
       65
